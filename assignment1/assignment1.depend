@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1518389796 source:/home/someone/Documents/computerGraphics/mine/assignment1/loadShaders.cpp
+	"loadShaders.h"
+
+1518316352 /home/someone/Documents/computerGraphics/mine/assignment1/loadShaders.h
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1518468606 source:/home/someone/Documents/computerGraphics/mine/assignment1/main.cpp
+	<iostream>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<string>
+	"graphicsEngine.h"
+
+1518477199 /home/someone/Documents/computerGraphics/mine/assignment1/graphicsEngine.h
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<cmath>
+	"loadShaders.h"
+

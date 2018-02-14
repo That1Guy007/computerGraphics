@@ -30,7 +30,7 @@ void keyPressed(int key, graphicsEngine &ge){
         break;
 
     case sf::Keyboard::R:
-        ge.setSize(800, 600);
+        ge.setSize(600, 600);
         break;
 
     default:
@@ -40,14 +40,14 @@ void keyPressed(int key, graphicsEngine &ge){
 
 int main()
 {
-    std::string windowTitle; //Can be used to set the title of our window....Optional
+    std::string windowTitle = "Star"; //Can be used to set the title of our window....Optional
 
     //major.minor version of software. OPEN GL
     GLuint minor = 3;
     GLuint major = 3;
 
     //optional window settings
-    GLint winWidth = 800;
+    GLint winWidth = 600;
     GLint winHeight = 600;
     //bool displayInfo = true;
 

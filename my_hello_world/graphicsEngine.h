@@ -47,6 +47,13 @@ class graphicsEngine: public sf::RenderWindow {
         //Buffer of addresses
         GLuint buffer;
 
+        GLfloat outerTipX;
+        GLfloat outerTipY;
+        GLfloat innerTipX;
+        GLfloat innerTipY;
+        GLfloat middleTipX;
+        GLfloat middleTipY;
+
     public:
         graphicsEngine(std::string title = "OpenGL Window", GLuint majorVer = 3, GLuint minorVer = 3, int width = 800, int height = 600);
         //destructor

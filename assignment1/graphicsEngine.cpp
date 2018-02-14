@@ -1,0 +1,160 @@
+#include "graphicsEngine.h"
+
+   /*
+    *   Author: Carlos Hernandez
+    *   Version: 1.0
+    *   date: 2-9-2018
+    *
+    */
+
+//constructor
+
+graphicsEngine::graphicsEngine(std::string title, GLint majorVer, GLint minorVer, int width, int height) :
+    sf::RenderWindow( sf::VideoMode( width, height), title, sf::Style::Default,
+     sf::ContextSettings(24, 8, 4, majorVer, minorVer, sf::ContextSettings::Core)){
+
+    setVerticalSyncEnabled(true);
+    ssCount = 1;
+
+    //set as active window for openGL calls
+    setActive();
+
+    //init program data and load shader programs
+    init();
+}
+
+//detructor
+graphicsEngine::~graphicsEngine(){
+
+}
+/*
+float cos_sin(int vertexs){
+    int answer = sin( (2 * PI)/ vertexs);
+    return answer;
+}*/
+
+//initialization of the GE, loads vertex and color data to the Graphics Card.
+//Loads shader programs from the disk to the GC,
+//links data stream to the vertex/color data
+
+void graphicsEngine::init(){
+    std::cin >> numVerticies;// = 6;
+    mode = GL_FILL;
+    vPos = 0;
+    vColor = 1;
+    outerTipX = -0.90;
+    outerTipY = -0.90;
+    middleTipX = 0.90;
+    middleTipY = -0.90;
+    innerTipX = -0.90;
+    innerTipY = 0.90;
+    //background color
+    glClearColor(0, 0, 0, 1);
+
+    //vertex and color information of the polygons
+    vertexInfo verts[numVerticies];/* = {
+        {{1.00, 0.00, 0.00}, {outerTipX, outerTipY}},  // Triangle 1 bottom left
+        {{0.00, 1.00, 0.00}, {middleTipX, middleTipY}},    //bottom right
+        {{0.00, 0.00, 1.00}, {innerTipX, innerTipY}},    //top left
+
+        {{0.5, 0.00, 0.00}, {0.90, -0.90}},   // Triangle 2 bottom right
+        {{0.00, 0.50, 0.00}, {0.90, 0.90}},     //top right
+        {{0.00, 0.00, 0.50}, {-0.90, 0.90}}     //top left
+    };*/
+    //vertexInfo* verts = new vertexInfo[numVerticies];
+
+
+    /*
+        Okay we are going to calulate the X and Y coordinate and also give static colors for the moment
+        Then put those colors and (x,y) coordinates into the verts array accordingly then bam!!
+        also do the attrbpointer stuff to notify that they need to move more fo rthe information
+
+    */
+   for(int i = 0; i < numVerticies; i++){
+        if(i == 0 || i ==2)
+            verts[i] = {{1.00, 0.00, 0.00}, {((i % 3)/2) * cos(PI / 2), ((i % 3)/2) * sin(PI / 2)}};
+        else{
+            verts[i] = {{0.00, 0.00, 1.00}, { .5 * cos(3 * PI / 4), .5 * sin(3 * PI/ 4)}};
+        }
+            std::cout<<verts[i].position[0] << " "<< verts[i].position[1] << "\n";
+    }
+
+    //Create and enable a vertex array
+    glGenVertexArrays(1, &VAO);
+    glBindVertexArray(VAO);
+
+    //Generate and turn on buffer
+    glGenBuffers(1, &buffer);
+    glBindBuffer(GL_ARRAY_BUFFER, buffer);
+
+    //transfer vertex info to the buffer
+    glBufferData(GL_ARRAY_BUFFER, sizeof(verts),
+                    verts, GL_STATIC_DRAW);
+
+    //set up vertexdata position info
+    glVertexAttribPointer(vColor, 3, GL_FLOAT, GL_TRUE,
+                                sizeof(vertexInfo), BUFFER_OFFSET(0));
+    glVertexAttribPointer(vPos, 2, GL_FLOAT,GL_FALSE, sizeof(vertexInfo),
+                                BUFFER_OFFSET(sizeof(verts[0].color)));
+
+    //set position index for shader streams
+    glEnableVertexAttribArray(vPos);
+    glEnableVertexAttribArray(vColor);
+
+    //load frag and vertex shaders
+    GLuint program = loadShaderFromFile("passThroughVerts.glsl", "passThroughFrags.glsl");
+
+    //check program..if load shaders fails -> exit
+    if(!program){
+        std::cerr<< "\nError loading shader programs...exiting\n";
+
+        exit(1);
+    }
+
+    //use the shaders
+    glUseProgram(program);
+}
+
+//display() draws the openGL frame buffer
+void graphicsEngine::display(){
+    //clear screen or clear fram buffer
+    glClear(GL_COLOR_BUFFER_BIT);
+
+    //Draw the polygons..prob triangle
+    glBindVertexArray(VAO);
+    glDrawArrays(GL_TRIANGLES, 0 , numVerticies);
+
+    sf::RenderWindow::display();
+}
+
+void graphicsEngine::changeMode(){
+    //Changes the mod from fill to line and vise versa
+    if(mode == GL_FILL){
+        mode = GL_LINE;
+    }
+    else{
+        mode = GL_FILL;
+    }
+    glPolygonMode(GL_FRONT_AND_BACK, mode);
+}
+
+void graphicsEngine::screenshot(){
+    char ssFilename[100];
+    std::sprintf(ssFilename, "screenshot%d.png", ssCount);
+    sf::Vector2u windowSize = getSize();
+    sf::Texture texture;
+    texture.create(windowSize.x, windowSize.y);
+    texture.update(*this);
+    sf::Image img = texture.copyToImage();
+    img.saveToFile(ssFilename);
+    ssCount++;
+}
+
+void graphicsEngine::resize(){
+    glViewport(0, 0, getSize().x, getSize().y);
+}
+
+void graphicsEngine::setSize(unsigned int width, unsigned int height){
+    sf::RenderWindow::setSize(sf::Vector2u(width, height));
+    resize();
+}

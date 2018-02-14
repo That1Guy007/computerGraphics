@@ -33,24 +33,30 @@ graphicsEngine::~graphicsEngine(){
 //links data stream to the vertex/color data
 
 void graphicsEngine::init(){
-    numVerticies = 6;
+    std::cin >> numVerticies;// = 6;
     mode = GL_FILL;
     vPos = 0;
     vColor = 1;
-
+    outerTipX = -0.90;
+    outerTipY = -0.90;
+    middleTipX = -0.90;
+    middleTipY = -0.90;
+    innerTipX = -0.90;
+    innerTipY = 0.90;
     //background color
     glClearColor(0, 0, 0, 1);
 
     //vertex and color information of the polygons
-    vertexInfo verts[6] = {
-        {{1.00, 0.00, 0.00}, {-0.90, -0.90}},  // Triangle 1
-        {{0.00, 1.00, 0.00}, {0.85, -0.90}},
-        {{0.00, 0.00, 1.00}, {-0.90, 0.85}},
+    /*vertexInfo verts[6] = {
+        {{1.00, 0.00, 0.00}, {outerTipX, outerTipY}},  // Triangle 1 bottom left
+        {{0.00, 1.00, 0.00}, {middleTipX, middleTipY}},    //bottom right
+        {{0.00, 0.00, 1.00}, {innerTipX, innerTipY}},    //top left
 
-        {{0.04, 0.04, 0.04}, {0.90, -0.85}},   // Triangle 2
-        {{0.40, 0.40, 0.40}, {0.90, 0.90}},
-        {{1.00, 1.00, 1.00}, {-0.85, 0.90}}
-    };
+        {{0.5, 0.00, 0.00}, {0.90, -0.90}},   // Triangle 2 bottom right
+        {{0.00, 0.50, 0.00}, {0.90, 0.90}},     //top right
+        {{0.00, 0.00, 0.50}, {-0.90, 0.90}}     //top left
+    };*/
+    vertexInfo* verts = new vertexInfo[numVertices];
 
     //Create and enable a vertex array
     glGenVertexArrays(1, &VAO);
