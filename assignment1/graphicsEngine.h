@@ -67,7 +67,8 @@ class graphicsEngine: public sf::RenderWindow {
         void changeMode();
         void screenshot();
         void resize();
-      //  float cos_sin(int);
+        float Xfunc(int, int);
+        float Yfunc(int, int);
         void setSize(unsigned int, unsigned int);
 
 };

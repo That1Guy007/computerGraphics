@@ -27,11 +27,18 @@ graphicsEngine::graphicsEngine(std::string title, GLint majorVer, GLint minorVer
 graphicsEngine::~graphicsEngine(){
 
 }
-/*
-float cos_sin(int vertexs){
-    int answer = sin( (2 * PI)/ vertexs);
+
+float graphicsEngine::Xfunc(int i, int numVerts){
+
+    float answer = cos(  ( (-PI /2) + (i * (PI/ numVerts) ) ));
     return answer;
-}*/
+}
+
+float graphicsEngine::Yfunc(int i, int numVerts){
+
+    float answer = sin(( (-PI/2) + (i * (PI/ numVerts) ) ));
+    return answer;
+}
 
 //initialization of the GE, loads vertex and color data to the Graphics Card.
 //Loads shader programs from the disk to the GC,
@@ -70,13 +77,39 @@ void graphicsEngine::init(){
         also do the attrbpointer stuff to notify that they need to move more fo rthe information
 
     */
-   for(int i = 0; i < numVerticies; i++){
+   for(int i = 0; i < numVerticies ; i++){
+
+    if(i < 3 ){
+        //this will always be the same. top point of the star
+        if(i ==0 || i == 2){
+            verts[i] = {{1.00, 0.00, 0.00}, {((i % 3)/2) * cos(PI / 2), ((i % 3)/2) * sin(PI / 2)}};
+        }
+        else{
+            //verts[i] = {{1.00, 0.00, 0.00}, {cos(PI / (numVerticies - 1)), sin(PI / (numVerticies -1))}};
+            verts[i] = {{0.00, 0.00, 1.00}, { .5 * cos(3 * PI / 4), .5 * sin(3 * PI/ 4)}};
+        }
+    }
+    else{
+        if(i % 3 == 0){ //this will handle the tips
+            verts[i] = {{0.00, 1.00, 0.00}, {Xfunc((i - 2), numVerticies/2), Yfunc((i-2), numVerticies/2)}};
+        }
+        else{ // this will handle the bottom two verts
+            if(i % 3 == 1){
+                verts[i] = {{1.00, 0.00, 0.00}, {.5 * Xfunc(i -3, numVerticies/2), .5 * Yfunc(i-3, numVerticies/2)}};
+            }
+            else{
+                verts[i] = {{1.00, 0.00, 0.00}, {.5 * Xfunc(i-3, numVerticies/2), .5 * Yfunc(i-3, numVerticies/2)}};
+            }
+        }
+    }
+        /*
         if(i == 0 || i ==2)
             verts[i] = {{1.00, 0.00, 0.00}, {((i % 3)/2) * cos(PI / 2), ((i % 3)/2) * sin(PI / 2)}};
         else{
             verts[i] = {{0.00, 0.00, 1.00}, { .5 * cos(3 * PI / 4), .5 * sin(3 * PI/ 4)}};
         }
             std::cout<<verts[i].position[0] << " "<< verts[i].position[1] << "\n";
+            */
     }
 
     //Create and enable a vertex array
