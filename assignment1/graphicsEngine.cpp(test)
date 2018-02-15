@@ -29,49 +29,44 @@ graphicsEngine::~graphicsEngine(){
 }
 
 float graphicsEngine::Xfunc(int i, int numVerts){
-    int mult, constant;
-    float cCosT = (2 * PI)/ numVerts;//top
-    float cCosM = ((2 * PI)/ numVerts) /2;//center
+    int mult;
+    float cCos = (2 * PI)/ numVerts;
     switch(i){
         case(0): // for center
             counterX++;
             mult = counterX;
-            //constant = cCosT;
             break;
         case(1):
             counter1X++;
             mult = counter1X;
-            //constant = cCosM;
             break;
         default:
             break;
     }
 
-    float answer = cos( ((PI)/2) -  (mult*cCosT/*constant*/) );
+    float answer = cos( ((PI)/2) -  (mult*cCos) );
     return answer;
 }
 
 float graphicsEngine::Yfunc(int i, int numVerts){
-    int mult, constant;
-    float cSinT = (2 * PI)/ numVerts;//tips
-    float cSinM = ((PI)/ numVerts) /2;//center
-    //std::cout<<cSin << "\n";
+    int mult;
+    float cSin = (2 * PI)/ numVerts;
+
+    std::cout<<cSin << "\n";
     switch(i){
         case(0): // for center
             counterY++;
             mult = counterY;
-            //constant = cSinT;
             break;
         case(1):
             counter1Y++;
             mult = counter1Y;
-            //constant = cSinM;
             break;
         default:
             break;
     }
 
-    float answer = sin( ((PI)/2) - (mult*cSinT/*constant*/) );
+    float answer = sin( ((PI)/2) - (mult*cSin) );
     return answer;
 }
 

@@ -56,6 +56,8 @@ class graphicsEngine: public sf::RenderWindow {
         GLfloat innerTipY;
         GLfloat middleTipX;
         GLfloat middleTipY;
+        int counter1X = 0, counterX = 0;
+        int counter1Y = 0, counterY = 0;
 
     public:
         graphicsEngine(std::string title = "OpenGL Window", GLint majorVer = 3, GLint minorVer = 3, int width = 800, int height = 600);
