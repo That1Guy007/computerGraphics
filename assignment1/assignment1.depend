@@ -62,3 +62,36 @@
 	<string>
 	"graphicsEngine.h"
 
+1518734677 source:/home/someone/Documents/computerGraphics/computerGraphics/assignment1/loadShaders.cpp
+	"loadShaders.h"
+
+1518734677 /home/someone/Documents/computerGraphics/computerGraphics/assignment1/loadShaders.h
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1518734677 source:/home/someone/Documents/computerGraphics/computerGraphics/assignment1/main.cpp
+	<iostream>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<string>
+	"graphicsEngine.h"
+
+1518736747 /home/someone/Documents/computerGraphics/computerGraphics/assignment1/graphicsEngine.h
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<cmath>
+	"loadShaders.h"
+
+1518737211 source:/home/someone/Documents/computerGraphics/computerGraphics/assignment1/graphicsEngine.cpp
+	"graphicsEngine.h"
+

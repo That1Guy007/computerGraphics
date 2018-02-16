@@ -25,29 +25,42 @@ graphicsEngine::graphicsEngine(std::string title, GLint majorVer, GLint minorVer
 
 //detructor
 graphicsEngine::~graphicsEngine(){
-
+//    delete verts;
 }
 
 float graphicsEngine::Xfunc(int i, int numVerts){
     int mult, constant;
     float cCosT = (2 * PI)/ numVerts;//top
     float cCosM = ((2 * PI)/ numVerts) /2;//center
-    switch(i){
-        case(0): // for center
-            counterX++;
-            mult = counterX;
-            //constant = cCosT;
-            break;
-        case(1):
-            counter1X++;
-            mult = counter1X;
-            //constant = cCosM;
-            break;
-        default:
-            break;
+    float answer;
+    if(i == numVerticies/2){
+        counterX = 3;
+        counter1X = 0;
     }
-
-    float answer = cos( ((PI)/2) -  (mult*cCosT/*constant*/) );
+    if(i % 3 == 0 && i < numVerticies/2){// for center
+        counterX++;
+        mult = counterX;
+        constant = cCosT;
+        answer = cos( ((PI)/2) -  (mult*cCosT/*constant*/) );
+    }
+    else if(i % 3 == 1 && i<numVerticies/2){
+        counter1X++;
+        mult = counter1X;
+        constant = cCosM;
+        answer = cos( ((3* PI / 2)) -  (mult*cCosT/*constant*/) );
+    }
+    else if(i % 3 == 0 && i >= numVerticies/2){
+        counter1X++;
+        mult = counter1X;
+        constant = cCosM;
+        answer = cos( ((PI / 2)) +  (mult*cCosT/*constant*/) );
+    }
+    else{
+        counterX++;
+        mult = counterX;
+        constant = cCosT;
+        answer = cos( ((3 * PI)/2) + (mult*cCosT/*constant*/) );
+    }
     return answer;
 }
 
@@ -55,23 +68,36 @@ float graphicsEngine::Yfunc(int i, int numVerts){
     int mult, constant;
     float cSinT = (2 * PI)/ numVerts;//tips
     float cSinM = ((PI)/ numVerts) /2;//center
-    //std::cout<<cSin << "\n";
-    switch(i){
-        case(0): // for center
-            counterY++;
-            mult = counterY;
-            //constant = cSinT;
-            break;
-        case(1):
-            counter1Y++;
-            mult = counter1Y;
-            //constant = cSinM;
-            break;
-        default:
-            break;
+    float answer;
+    if(i == numVerticies/2){
+        counter1Y = 0;
+        counterY = 3;
     }
-
-    float answer = sin( ((PI)/2) - (mult*cSinT/*constant*/) );
+    //std::cout<<cSin << "\n";
+    if(i % 3 == 0 && i < numVerticies/2){// for center
+        counterY++;
+        mult = counterY;
+        //constant = cCosT;
+        answer = sin( ((PI)/2) -  (mult*cSinT/*constant*/) );
+    }
+    else if(i % 3 == 1 && i<numVerticies/2){
+        counter1Y++;
+        mult = counter1Y;
+        //constant = cM;
+        answer = sin( ((3* PI / 2)) -  (mult*cSinT/*constant*/) );
+    }
+    else if(i % 3 == 0 && i >= numVerticies/2){
+        counter1Y++;
+        mult = counter1Y;
+        //constant = cCosM;
+        answer = sin( (( PI / 2)) +  (mult*cSinT/*constant*/) );
+    }
+    else{
+        counterY++;
+        mult = counterY;
+        //constant = cCosT;
+        answer = sin( ((3 *PI)/2) + (mult*cSinT/*constant*/) );
+    }
     return answer;
 }
 
@@ -84,12 +110,14 @@ void graphicsEngine::init(){
     mode = GL_FILL;
     vPos = 0;
     vColor = 1;
+    /*
     outerTipX = -0.90;
     outerTipY = -0.90;
     middleTipX = 0.90;
     middleTipY = -0.90;
     innerTipX = -0.90;
     innerTipY = 0.90;
+    */
     //background color
     glClearColor(0, 0, 0, 1);
 
@@ -115,23 +143,15 @@ void graphicsEngine::init(){
    for(int i = 0; i < numVerticies ; i++){
         int mod = i %3;
         if(mod == 0){ //this will handle the tips
-            verts[i] = {{0.00, 1.00, 0.00}, {Xfunc((mod), numVerticies/6), Yfunc((mod), numVerticies/6)}};
+            verts[i] = {{0.00, 1.00, 0.00}, {Xfunc((i), numVerticies/6), Yfunc((i), numVerticies/6)}};
         }
         else if(mod == 2){ // this will handle the center
             verts[i] = {{1.00, 0.00, 0.00}, {0 /* Xfunc(i -3, numVerticies/2)*/, 0 /* Yfunc(i-3, numVerticies/2)*/}};
         }
         else{ //midle vert
-            verts[i] = {{1.00, 0.00, 0.00}, {0.5 * Xfunc(mod, numVerticies/6), 0.5 * Yfunc(mod, numVerticies/6)}};
+            verts[i] = {{ 0.00 , 0.00, 1.00}, {0.5 * Xfunc(i, numVerticies/6), 0.5 * Yfunc(i, numVerticies/6)}};
         }
         std::cout<< i<< ": " "vert x: "<< verts[i].position[0] << ", vert y: "<< verts[i].position[1] << "\n";
-        /*
-        if(i == 0 || i ==2)
-            verts[i] = {{1.00, 0.00, 0.00}, {((i % 3)/2) * cos(PI / 2), ((i % 3)/2) * sin(PI / 2)}};
-        else{
-            verts[i] = {{0.00, 0.00, 1.00}, { .5 * cos(3 * PI / 4), .5 * sin(3 * PI/ 4)}};
-        }
-            std::cout<<verts[i].position[0] << " "<< verts[i].position[1] << "\n";
-            */
     }
 
     //Create and enable a vertex array
