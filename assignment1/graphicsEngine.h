@@ -11,6 +11,7 @@
 #include <string>
 #include <stdio.h>
 #include <cmath>
+#include <time.h>
 
 #include "loadShaders.h"
 
@@ -35,7 +36,7 @@ class graphicsEngine: public sf::RenderWindow {
 
     private:
         //unsigned int for number of verticies
-        GLsizei numVerticies;
+        GLsizei numVerticies = 30;
         //mode for full fill or outline
         GLenum mode;
         //screen shot count
@@ -56,8 +57,9 @@ class graphicsEngine: public sf::RenderWindow {
         GLfloat innerTipY;
         GLfloat middleTipX;
         GLfloat middleTipY;
-        int counter1X = 3, counterX = 0;
-        int counter1Y = 3, counterY = 0;
+        int counter1X, counterX;
+        int counter1Y, counterY;
+        int random;
 
     public:
         graphicsEngine(std::string title = "OpenGL Window", GLint majorVer = 3, GLint minorVer = 3, int width = 800, int height = 600);
@@ -72,6 +74,7 @@ class graphicsEngine: public sf::RenderWindow {
         float Xfunc(int, int);
         float Yfunc(int, int);
         void setSize(unsigned int, unsigned int);
-
+        void setPoints( GLuint );
+        void PARTYTIME();
 };
 #endif //for graphicsEngine_H_INCLUDED

@@ -33,6 +33,47 @@ void keyPressed(int key, graphicsEngine &ge){
         ge.setSize(600, 600);
         break;
 
+    case sf::Keyboard::Num1:
+        //personal function
+        ge.PARTYTIME();
+        break;
+
+    case sf::Keyboard::Num2:
+        ge.setPoints(12);
+        break;
+
+    case sf::Keyboard::Num3:
+        ge.setPoints(18);
+        break;
+
+    case sf::Keyboard::Num4:
+        ge.setPoints(24);
+        break;
+
+    case sf::Keyboard::Num5:
+        ge.setPoints(30);
+        break;
+
+    case sf::Keyboard::Num6:
+        ge.setPoints(36);
+        break;
+
+    case sf::Keyboard::Num7:
+        ge.setPoints(42);
+        break;
+
+    case sf::Keyboard::Num8:
+        ge.setPoints(48);
+        break;
+
+    case sf::Keyboard::Num9:
+        ge.setPoints(54);
+        break;
+
+    case sf::Keyboard::Num0:
+        ge.setPoints(60);
+        break;
+
     default:
         break;
     }

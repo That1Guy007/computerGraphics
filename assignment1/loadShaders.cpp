@@ -98,7 +98,7 @@ GLuint loadShaderFromFile(shaderInfo* shaders){
             delete [] log;
             return 0;
         }
-        std::cout << "\n"<<getShaderString(entry->type) << " shader compilation good:" <<"\n";
+       // std::cout << "\n"<<getShaderString(entry->type) << " shader compilation good:" <<"\n";
 
         glAttachShader(program, shader);
         ++entry;
@@ -114,14 +114,14 @@ GLuint loadShaderFromFile(shaderInfo* shaders){
 
         GLchar* log = new GLchar[len+1];
         glGetProgramInfoLog(program, len, &len, log);
-        std::cerr<< "Shader link failed: " << log<<"\n";
+        //std::cerr<< "Shader link failed: " << log<<"\n";
         delete [] log;
 
         for(entry = shaders; entry->type != GL_NONE; ++entry){
             glDeleteShader(entry->shader);
             entry->shader = 0;
         }
-        std::cout<< "Shader link good: " <<"\n";
+        //std::cout<< "Shader link good: " <<"\n";
 
         return 0;
     }
