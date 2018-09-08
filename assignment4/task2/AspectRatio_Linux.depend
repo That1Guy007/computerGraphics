@@ -1,0 +1,425 @@
+# depslib dependency file v1.0
+1514066389 source:/home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/LoadShaders.cpp
+	"LoadShaders.h"
+
+1514067393 /home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1515344774 source:/home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/UI.cpp
+	"UI.h"
+
+1515344787 /home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/UI.h
+	"GraphicsEngine.h"
+
+1515351329 /home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Box.h"
+	"Axes2D.h"
+	"ProgramDefines.h"
+
+1515347933 /home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/Box.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1452648820 /home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/ProgramDefines.h
+
+1515349586 source:/home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/Box.cpp
+	"Box.h"
+
+1515351362 source:/home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1515346609 source:/home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/main.cpp
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1515198700 source:/home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/Shape.cpp
+	"Shape.h"
+
+1515198440 /home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/Shape.h
+
+1515353026 source:/home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/Axes2D.cpp
+	"Axes2D.h"
+
+1515351814 /home/don/Programming/Graphics2018/2D_Graphics/Transformations/AspectRatio/Axes2D.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1515461026 source:/home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/Axes2D.cpp
+	"Axes2D.h"
+
+1515459814 /home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/Axes2D.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1452756820 /home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/ProgramDefines.h
+
+1515306440 /home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/Shape.h
+
+1519421219 source:/home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1519418310 /home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Box.h"
+	"Axes2D.h"
+	"ProgramDefines.h"
+
+1514175394 /home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1515455934 /home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/Box.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1514174390 source:/home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/LoadShaders.cpp
+	"LoadShaders.h"
+
+1519417018 source:/home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/main.cpp
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1519423326 /home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/UI.h
+	"GraphicsEngine.h"
+
+1515306700 source:/home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/Shape.cpp
+	"Shape.h"
+
+1519425528 source:/home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/UI.cpp
+	"UI.h"
+
+1519421079 source:/home/someone/Documents/computerGraphics/Transformations/AspectRatio/Linux_Win_CB/Box.cpp
+	"Box.h"
+
+1515461026 source:/home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/Axes2D.cpp
+	"Axes2D.h"
+
+1515459814 /home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/Axes2D.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1452756820 /home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/ProgramDefines.h
+
+1515306440 /home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/Shape.h
+
+1519421079 source:/home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/Box.cpp
+	"Box.h"
+
+1515455934 /home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/Box.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1514174390 source:/home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/LoadShaders.cpp
+	"LoadShaders.h"
+
+1514175394 /home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1519417018 source:/home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/main.cpp
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1519418310 /home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Box.h"
+	"Axes2D.h"
+	"ProgramDefines.h"
+
+1519423326 /home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/UI.h
+	"GraphicsEngine.h"
+
+1515306700 source:/home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/Shape.cpp
+	"Shape.h"
+
+1519425931 source:/home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/UI.cpp
+	"UI.h"
+
+1519857564 source:/home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1519858912 source:/home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/Star.cpp
+	"Star.h"
+
+1519858644 /home/someone/Documents/turnedIn/ass4/AspectRatio/Linux_Win_CB/Star.h
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1519849340 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/Axes2D.cpp
+	"Axes2D.h"
+
+1519849340 /home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/Axes2D.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1519849338 /home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/ProgramDefines.h
+
+1519849342 /home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/Shape.h
+
+1519849338 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/Box.cpp
+	"Box.h"
+
+1519849340 /home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/Box.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1519945669 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1519945424 /home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Box.h"
+	"Star.h"
+	"Axes2D.h"
+	"ProgramDefines.h"
+
+1519849338 /home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1519849338 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/LoadShaders.cpp
+	"LoadShaders.h"
+
+1519944964 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/main.cpp
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1519849340 /home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/UI.h
+	"GraphicsEngine.h"
+
+1519849342 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/Shape.cpp
+	"Shape.h"
+
+1519952324 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/Star.cpp
+	"Star.h"
+
+1519948392 /home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/Star.h
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1519849342 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/Linux_Win_CB/UI.cpp
+	"UI.h"
+
+1519849340 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/task2/Axes2D.cpp
+	"Axes2D.h"
+
+1519849340 /home/someone/Documents/computerGraphics/turnedIn/ass4/task2/Axes2D.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1519849338 /home/someone/Documents/computerGraphics/turnedIn/ass4/task2/ProgramDefines.h
+
+1519849342 /home/someone/Documents/computerGraphics/turnedIn/ass4/task2/Shape.h
+
+1519849338 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/task2/Box.cpp
+	"Box.h"
+
+1519849340 /home/someone/Documents/computerGraphics/turnedIn/ass4/task2/Box.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1519849338 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/task2/LoadShaders.cpp
+	"LoadShaders.h"
+
+1519849338 /home/someone/Documents/computerGraphics/turnedIn/ass4/task2/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1519944964 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/task2/main.cpp
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1520034717 /home/someone/Documents/computerGraphics/turnedIn/ass4/task2/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Box.h"
+	"Star.h"
+	"Axes2D.h"
+	"ProgramDefines.h"
+
+1520032541 /home/someone/Documents/computerGraphics/turnedIn/ass4/task2/Star.h
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1519849340 /home/someone/Documents/computerGraphics/turnedIn/ass4/task2/UI.h
+	"GraphicsEngine.h"
+
+1519849342 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/task2/Shape.cpp
+	"Shape.h"
+
+1519849342 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/task2/UI.cpp
+	"UI.h"
+
+1520034730 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/task2/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1520035004 source:/home/someone/Documents/computerGraphics/turnedIn/ass4/task2/Star.cpp
+	"Star.h"
+

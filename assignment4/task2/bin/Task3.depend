@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1515461026 source:/home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/Axes2D.cpp
+	"Axes2D.h"
+
+1515459814 /home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/Axes2D.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1452756820 /home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/ProgramDefines.h
+
+1515306440 /home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/Shape.h
+
+1519421079 source:/home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/Box.cpp
+	"Box.h"
+
+1515455934 /home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/Box.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	<stdlib.h>
+	"ProgramDefines.h"
+	"Shape.h"
+
+1519421219 source:/home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1519418310 /home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Box.h"
+	"Axes2D.h"
+	"ProgramDefines.h"
+
+1514175394 /home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1514174390 source:/home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/LoadShaders.cpp
+	"LoadShaders.h"
+
+1519417018 source:/home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/main.cpp
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1519423326 /home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/UI.h
+	"GraphicsEngine.h"
+
+1515306700 source:/home/someone/Documents/computerGraphics/mine/computerGraphics/ass3/task3/Shape.cpp
+	"Shape.h"
+
