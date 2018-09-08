@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1518447879 source:/home/someone/Documents/computerGraphics/mine/my_hello_world/graphicsEngine.cpp
+	"graphicsEngine.h"
+
+1518395254 /home/someone/Documents/computerGraphics/mine/my_hello_world/graphicsEngine.h
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"loadShaders.h"
+
+1518316352 /home/someone/Documents/computerGraphics/mine/my_hello_world/loadShaders.h
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1518448551 source:/home/someone/Documents/computerGraphics/mine/my_hello_world/main.cpp
+	<iostream>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<string>
+	"graphicsEngine.h"
+
+1518381707 source:/home/someone/Documents/computerGraphics/mine/my_hello_world/graphicsEngine.h
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"loadShaders.h"
+
+1518316352 source:/home/someone/Documents/computerGraphics/mine/my_hello_world/loadShaders.h
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1518389796 source:/home/someone/Documents/computerGraphics/mine/my_hello_world/loadShaders.cpp
+	"loadShaders.h"
+
