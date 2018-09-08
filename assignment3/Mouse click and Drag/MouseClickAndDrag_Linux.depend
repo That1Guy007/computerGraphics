@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1514483279 source:/home/don/Programming/Graphics2018/SFMLUserInterface/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/Box.cpp
+	"Box.h"
+
+1514483308 /home/don/Programming/Graphics2018/SFMLUserInterface/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/Box.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	"ProgramDefines.h"
+
+1452964104 /home/don/Programming/Graphics2018/SFMLUserInterface/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/ProgramDefines.h
+
+1514486221 source:/home/don/Programming/Graphics2018/SFMLUserInterface/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1514486029 /home/don/Programming/Graphics2018/SFMLUserInterface/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Box.h"
+	"ProgramDefines.h"
+
+1513959393 /home/don/Programming/Graphics2018/SFMLUserInterface/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1513958389 source:/home/don/Programming/Graphics2018/SFMLUserInterface/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/LoadShaders.cpp
+	"LoadShaders.h"
+
+1514485936 source:/home/don/Programming/Graphics2018/SFMLUserInterface/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/main.cpp
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1514486093 /home/don/Programming/Graphics2018/SFMLUserInterface/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/UI.h
+	"GraphicsEngine.h"
+
+1514699280 source:/home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/Box.cpp
+	"Box.h"
+
+1514699308 /home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/Box.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<iostream>
+	"ProgramDefines.h"
+
+1453180104 /home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/ProgramDefines.h
+
+1514682980 source:/home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1514702030 /home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Box.h"
+	"ProgramDefines.h"
+
+1514175394 /home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1514174390 source:/home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/LoadShaders.cpp
+	"LoadShaders.h"
+
+1514702550 source:/home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/main.cpp
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1519344696 /home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/UI.h
+	"GraphicsEngine.h"
+
+1519345631 source:/home/someone/Documents/computerGraphics/mine/MouseProcessing/MouseClickAndDrag/Linux_Win_CB/UI.cpp
+	"UI.h"
+
