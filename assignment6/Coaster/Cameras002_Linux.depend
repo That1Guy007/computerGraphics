@@ -1,0 +1,413 @@
+# depslib dependency file v1.0
+1515954023 source:/home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/Axes.cpp
+	"Axes.h"
+
+1515954034 /home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/Axes.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1456684788 /home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/ProgramDefines.h
+
+1515956973 source:/home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/Cube.cpp
+	"Cube.h"
+
+1515954098 /home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/Cube.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1515958177 source:/home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1515958104 /home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Cube.h"
+	"ProgramDefines.h"
+	"SphericalCamera.h"
+	"YPRCamera.h"
+	"Axes.h"
+
+1514139393 /home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1515956850 /home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/SphericalCamera.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<math.h>
+	"ProgramDefines.h"
+
+1515956861 /home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/YPRCamera.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1514138389 source:/home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/LoadShaders.cpp
+	"LoadShaders.h"
+
+1515958411 source:/home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/main.cpp
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1515956806 /home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/UI.h
+	"GraphicsEngine.h"
+
+1515956952 source:/home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/SphericalCamera.cpp
+	"SphericalCamera.h"
+
+1515956800 source:/home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/UI.cpp
+	"UI.h"
+
+1515956914 source:/home/don/Programming/Graphics2018/3D_Graphics/Cameras/Cameras002/Linux_Win_CB/YPRCamera.cpp
+	"YPRCamera.h"
+
+1516011828 source:/home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/Axes.cpp
+	"Axes.h"
+
+1515990034 /home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/Axes.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1456720788 /home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/ProgramDefines.h
+
+1516011726 source:/home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/Cube.cpp
+	"Cube.h"
+
+1515990098 /home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/Cube.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1514174390 source:/home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/LoadShaders.cpp
+	"LoadShaders.h"
+
+1514175394 /home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1516472716 source:/home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/main.cpp
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1523137065 /home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Track.h"
+	"ProgramDefines.h"
+	"SphericalCamera.h"
+	"YPRCamera.h"
+	"Axes.h"
+
+1516237996 /home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/SphericalCamera.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<math.h>
+	"ProgramDefines.h"
+
+1516466034 /home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/YPRCamera.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1515992806 /home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/UI.h
+	"GraphicsEngine.h"
+
+1516238648 source:/home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/SphericalCamera.cpp
+	"SphericalCamera.h"
+
+1523198201 source:/home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/UI.cpp
+	"UI.h"
+
+1516466086 source:/home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/YPRCamera.cpp
+	"YPRCamera.h"
+
+1523195585 source:/home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1523197241 /home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/Track.h
+	<GL/glew.h>
+	<math.h>
+	<iostream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1523198023 source:/home/someone/Documents/computerGraphics/Cameras/Cameras002/Linux_Win_CB/Track.cpp
+	"Track.h"
+
+1516011828 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Axes.cpp
+	"Axes.h"
+
+1523207791 /home/someone/Documents/computerGraphics/turnedIn/ass6/Axes.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1456720788 /home/someone/Documents/computerGraphics/turnedIn/ass6/ProgramDefines.h
+
+1516011726 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Cube.cpp
+	"Cube.h"
+
+1515990098 /home/someone/Documents/computerGraphics/turnedIn/ass6/Cube.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1523286970 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1523210875 /home/someone/Documents/computerGraphics/turnedIn/ass6/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Track.h"
+	"ProgramDefines.h"
+	"SphericalCamera.h"
+	"YPRCamera.h"
+	"Axes.h"
+
+1514175394 /home/someone/Documents/computerGraphics/turnedIn/ass6/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1523209730 /home/someone/Documents/computerGraphics/turnedIn/ass6/Track.h
+	<GL/glew.h>
+	<math.h>
+	<iostream>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1523207765 /home/someone/Documents/computerGraphics/turnedIn/ass6/SphericalCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	<math.h>
+	"ProgramDefines.h"
+
+1523207779 /home/someone/Documents/computerGraphics/turnedIn/ass6/YPRCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1514174390 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/LoadShaders.cpp
+	"LoadShaders.h"
+
+1516472716 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/main.cpp
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1515992806 /home/someone/Documents/computerGraphics/turnedIn/ass6/UI.h
+	"GraphicsEngine.h"
+
+1516238648 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/SphericalCamera.cpp
+	"SphericalCamera.h"
+
+1523287197 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Track.cpp
+	"Track.h"
+
+1523198201 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/UI.cpp
+	"UI.h"
+
+1516466086 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/YPRCamera.cpp
+	"YPRCamera.h"
+
+1516011828 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/Axes.cpp
+	"Axes.h"
+
+1523207791 /home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/Axes.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1456720788 /home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/ProgramDefines.h
+
+1516011726 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/Cube.cpp
+	"Cube.h"
+
+1515990098 /home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/Cube.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1523286970 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1523210875 /home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Track.h"
+	"ProgramDefines.h"
+	"SphericalCamera.h"
+	"YPRCamera.h"
+	"Axes.h"
+
+1514175394 /home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1523317940 /home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/Track.h
+	<GL/glew.h>
+	<math.h>
+	<iostream>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1523207765 /home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/SphericalCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	<math.h>
+	"ProgramDefines.h"
+
+1523207779 /home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/YPRCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1514174390 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/LoadShaders.cpp
+	"LoadShaders.h"
+
+1516472716 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/main.cpp
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1515992806 /home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/UI.h
+	"GraphicsEngine.h"
+
+1516238648 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/SphericalCamera.cpp
+	"SphericalCamera.h"
+
+1523198201 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/UI.cpp
+	"UI.h"
+
+1516466086 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/YPRCamera.cpp
+	"YPRCamera.h"
+
+1523299654 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/Coaster/Track.cpp
+	"Track.h"
+

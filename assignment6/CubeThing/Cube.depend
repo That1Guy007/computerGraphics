@@ -1,0 +1,294 @@
+# depslib dependency file v1.0
+1521115500 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/Cube.cpp
+	"Cube.h"
+
+1523312410 /home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/Cube.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1521115502 /home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/ProgramDefines.h
+
+1523276706 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1523111996 /home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Cube.h"
+	"ProgramDefines.h"
+	"SphericalCamera.h"
+	"YPRCamera.h"
+	"Axes.h"
+
+1521115500 /home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1523312317 /home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/SphericalCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	<math.h>
+	"ProgramDefines.h"
+
+1523312331 /home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/YPRCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1523312345 /home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/Axes.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1521115500 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/LoadShaders.cpp
+	"LoadShaders.h"
+
+1521115502 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/main.cpp
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1521115502 /home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/UI.h
+	"GraphicsEngine.h"
+
+1521115502 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/SphericalCamera.cpp
+	"SphericalCamera.h"
+
+1523110622 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/UI.cpp
+	"UI.h"
+
+1521115502 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/EX1/YPRCamera.cpp
+	"YPRCamera.h"
+
+1523312442 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/Cube.cpp
+	"Cube.h"
+
+1523312999 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/Cube.h
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1521115502 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/ProgramDefines.h
+
+1523391335 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1523391207 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Cube.h"
+	"ProgramDefines.h"
+	"SphericalCamera.h"
+	"YPRCamera.h"
+	"Axes.h"
+
+1521115500 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1523312317 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/SphericalCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	<math.h>
+	"ProgramDefines.h"
+
+1523312331 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/YPRCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1523312345 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/Axes.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1521115500 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/LoadShaders.cpp
+	"LoadShaders.h"
+
+1521115502 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/main.cpp
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1521115502 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/UI.h
+	"GraphicsEngine.h"
+
+1521115502 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/SphericalCamera.cpp
+	"SphericalCamera.h"
+
+1523390972 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/UI.cpp
+	"UI.h"
+
+1521115502 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/YPRCamera.cpp
+	"YPRCamera.h"
+
+1521115500 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/Cube/Axes.cpp
+	"Axes.h"
+
+1521115500 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/Axes.cpp
+	"Axes.h"
+
+1523312345 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/Axes.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1521115502 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/ProgramDefines.h
+
+1523312442 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/Cube.cpp
+	"Cube.h"
+
+1523312999 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/Cube.h
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1523391335 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/GraphicsEngine.cpp
+	"GraphicsEngine.h"
+
+1523391207 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/GraphicsEngine.h
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	"LoadShaders.h"
+	"Cube.h"
+	"ProgramDefines.h"
+	"SphericalCamera.h"
+	"YPRCamera.h"
+	"Axes.h"
+
+1521115500 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/LoadShaders.h
+	<OpenGL/gl3.h>
+	<GL/glew.h>
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1523312317 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/SphericalCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	<math.h>
+	"ProgramDefines.h"
+
+1523312331 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/YPRCamera.h
+	<glm/glm/glm.hpp>
+	<glm/glm/gtc/matrix_transform.hpp>
+	<glm/glm/gtc/type_ptr.hpp>
+	"ProgramDefines.h"
+
+1521115500 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/LoadShaders.cpp
+	"LoadShaders.h"
+
+1521115502 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/main.cpp
+	<OpenGL/gl3.h>
+	<OpenGL/glu.h>
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/System.hpp>
+	<iostream>
+	<string>
+	"GraphicsEngine.h"
+	"UI.h"
+
+1521115502 /home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/UI.h
+	"GraphicsEngine.h"
+
+1521115502 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/SphericalCamera.cpp
+	"SphericalCamera.h"
+
+1523391823 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/UI.cpp
+	"UI.h"
+
+1521115502 source:/home/someone/Documents/computerGraphics/turnedIn/ass6/AnimationCube/CubeThing/YPRCamera.cpp
+	"YPRCamera.h"
+

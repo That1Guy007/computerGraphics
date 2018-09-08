@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6C1BEFD200C2A2E00E5551E /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6C1BEFC200C2A2E00E5551E /* ResourcePath.mm */; };
+		F6C1BF00200C2A2E00E5551E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C1BEFF200C2A2E00E5551E /* main.cpp */; };
+		F6C1BF1E200C2AA500E5551E /* Axes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C1BF0F200C2AA500E5551E /* Axes.cpp */; };
+		F6C1BF1F200C2AA500E5551E /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C1BF11200C2AA500E5551E /* Cube.cpp */; };
+		F6C1BF20200C2AA500E5551E /* GraphicsEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C1BF13200C2AA500E5551E /* GraphicsEngine.cpp */; };
+		F6C1BF21200C2AA500E5551E /* LoadShaders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C1BF15200C2AA500E5551E /* LoadShaders.cpp */; };
+		F6C1BF22200C2AA500E5551E /* SphericalCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C1BF18200C2AA500E5551E /* SphericalCamera.cpp */; };
+		F6C1BF23200C2AA500E5551E /* UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C1BF1A200C2AA500E5551E /* UI.cpp */; };
+		F6C1BF24200C2AA500E5551E /* YPRCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C1BF1C200C2AA500E5551E /* YPRCamera.cpp */; };
+		F6C1BF27200C2AB200E5551E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C1BF26200C2AB200E5551E /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6C1BEF7200C2A2E00E5551E /* Cameras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cameras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C1BEFB200C2A2E00E5551E /* Cameras-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cameras-Info.plist"; sourceTree = "<group>"; };
+		F6C1BEFC200C2A2E00E5551E /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		F6C1BEFE200C2A2E00E5551E /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		F6C1BEFF200C2A2E00E5551E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F6C1BF0F200C2AA500E5551E /* Axes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Axes.cpp; sourceTree = "<group>"; };
+		F6C1BF10200C2AA500E5551E /* Axes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Axes.h; sourceTree = "<group>"; };
+		F6C1BF11200C2AA500E5551E /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		F6C1BF12200C2AA500E5551E /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		F6C1BF13200C2AA500E5551E /* GraphicsEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsEngine.cpp; sourceTree = "<group>"; };
+		F6C1BF14200C2AA500E5551E /* GraphicsEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsEngine.h; sourceTree = "<group>"; };
+		F6C1BF15200C2AA500E5551E /* LoadShaders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadShaders.cpp; sourceTree = "<group>"; };
+		F6C1BF16200C2AA500E5551E /* LoadShaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadShaders.h; sourceTree = "<group>"; };
+		F6C1BF17200C2AA500E5551E /* ProgramDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramDefines.h; sourceTree = "<group>"; };
+		F6C1BF18200C2AA500E5551E /* SphericalCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SphericalCamera.cpp; sourceTree = "<group>"; };
+		F6C1BF19200C2AA500E5551E /* SphericalCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphericalCamera.h; sourceTree = "<group>"; };
+		F6C1BF1A200C2AA500E5551E /* UI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI.cpp; sourceTree = "<group>"; };
+		F6C1BF1B200C2AA500E5551E /* UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
+		F6C1BF1C200C2AA500E5551E /* YPRCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YPRCamera.cpp; sourceTree = "<group>"; };
+		F6C1BF1D200C2AA500E5551E /* YPRCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPRCamera.h; sourceTree = "<group>"; };
+		F6C1BF26200C2AB200E5551E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6C1BEF3200C2A2E00E5551E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C1BF27200C2AB200E5551E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6C1BEED200C2A2E00E5551E = {
+			isa = PBXGroup;
+			children = (
+				F6C1BEF9200C2A2E00E5551E /* Cameras */,
+				F6C1BEF8200C2A2E00E5551E /* Products */,
+				F6C1BF25200C2AB100E5551E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6C1BEF8200C2A2E00E5551E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1BEF7200C2A2E00E5551E /* Cameras.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6C1BEF9200C2A2E00E5551E /* Cameras */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1BF0F200C2AA500E5551E /* Axes.cpp */,
+				F6C1BF10200C2AA500E5551E /* Axes.h */,
+				F6C1BF11200C2AA500E5551E /* Cube.cpp */,
+				F6C1BF12200C2AA500E5551E /* Cube.h */,
+				F6C1BF13200C2AA500E5551E /* GraphicsEngine.cpp */,
+				F6C1BF14200C2AA500E5551E /* GraphicsEngine.h */,
+				F6C1BF15200C2AA500E5551E /* LoadShaders.cpp */,
+				F6C1BF16200C2AA500E5551E /* LoadShaders.h */,
+				F6C1BF17200C2AA500E5551E /* ProgramDefines.h */,
+				F6C1BF18200C2AA500E5551E /* SphericalCamera.cpp */,
+				F6C1BF19200C2AA500E5551E /* SphericalCamera.h */,
+				F6C1BF1A200C2AA500E5551E /* UI.cpp */,
+				F6C1BF1B200C2AA500E5551E /* UI.h */,
+				F6C1BF1C200C2AA500E5551E /* YPRCamera.cpp */,
+				F6C1BF1D200C2AA500E5551E /* YPRCamera.h */,
+				F6C1BEFC200C2A2E00E5551E /* ResourcePath.mm */,
+				F6C1BEFE200C2A2E00E5551E /* ResourcePath.hpp */,
+				F6C1BEFF200C2A2E00E5551E /* main.cpp */,
+				F6C1BF01200C2A2E00E5551E /* Resources */,
+				F6C1BEFA200C2A2E00E5551E /* Supporting Files */,
+			);
+			path = Cameras;
+			sourceTree = "<group>";
+		};
+		F6C1BEFA200C2A2E00E5551E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1BEFB200C2A2E00E5551E /* Cameras-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6C1BF01200C2A2E00E5551E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6C1BF25200C2AB100E5551E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1BF26200C2AB200E5551E /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6C1BEF6200C2A2E00E5551E /* Cameras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C1BF0C200C2A2E00E5551E /* Build configuration list for PBXNativeTarget "Cameras" */;
+			buildPhases = (
+				F6C1BEF2200C2A2E00E5551E /* Sources */,
+				F6C1BEF3200C2A2E00E5551E /* Frameworks */,
+				F6C1BEF4200C2A2E00E5551E /* Resources */,
+				F6C1BEF5200C2A2E00E5551E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cameras;
+			productName = Cameras;
+			productReference = F6C1BEF7200C2A2E00E5551E /* Cameras.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6C1BEEE200C2A2E00E5551E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Don Spickler";
+				TargetAttributes = {
+					F6C1BEF6200C2A2E00E5551E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F6C1BEF1200C2A2E00E5551E /* Build configuration list for PBXProject "Cameras" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6C1BEED200C2A2E00E5551E;
+			productRefGroup = F6C1BEF8200C2A2E00E5551E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C1BEF6200C2A2E00E5551E /* Cameras */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6C1BEF4200C2A2E00E5551E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F6C1BEF5200C2A2E00E5551E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6C1BEF2200C2A2E00E5551E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C1BF1F200C2AA500E5551E /* Cube.cpp in Sources */,
+				F6C1BF1E200C2AA500E5551E /* Axes.cpp in Sources */,
+				F6C1BF00200C2A2E00E5551E /* main.cpp in Sources */,
+				F6C1BEFD200C2A2E00E5551E /* ResourcePath.mm in Sources */,
+				F6C1BF22200C2AA500E5551E /* SphericalCamera.cpp in Sources */,
+				F6C1BF23200C2AA500E5551E /* UI.cpp in Sources */,
+				F6C1BF21200C2AA500E5551E /* LoadShaders.cpp in Sources */,
+				F6C1BF24200C2AA500E5551E /* YPRCamera.cpp in Sources */,
+				F6C1BF20200C2AA500E5551E /* GraphicsEngine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6C1BF0A200C2A2E00E5551E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		F6C1BF0B200C2A2E00E5551E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		F6C1BF0D200C2A2E00E5551E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cameras/Cameras-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6C1BF0E200C2A2E00E5551E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cameras/Cameras-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6C1BEF1200C2A2E00E5551E /* Build configuration list for PBXProject "Cameras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C1BF0A200C2A2E00E5551E /* Debug */,
+				F6C1BF0B200C2A2E00E5551E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C1BF0C200C2A2E00E5551E /* Build configuration list for PBXNativeTarget "Cameras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C1BF0D200C2A2E00E5551E /* Debug */,
+				F6C1BF0E200C2A2E00E5551E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6C1BEEE200C2A2E00E5551E /* Project object */;
+}
