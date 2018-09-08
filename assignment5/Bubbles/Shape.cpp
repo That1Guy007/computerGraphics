@@ -8,7 +8,7 @@ The Shape class is the base class for the shapes we will be using in the scene.
 Shapes that will be used will be derived from this class, making graphing code a little
 cleaner.
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.2
 \date      1/4/2018
 

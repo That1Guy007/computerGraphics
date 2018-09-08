@@ -11,7 +11,7 @@ card in two separate locations (that is the data is not intermixed) and hence we
 set up the reading pointers as having tightly packed data. There is also an index array
 for drawing the axes lines.
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.1
 \date      1/7/2018
 

@@ -6,7 +6,7 @@
 
 \brief Header file for Shape.cpp
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.2
 \date      1/4/2018
 

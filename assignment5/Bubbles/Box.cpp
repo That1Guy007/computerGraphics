@@ -13,7 +13,7 @@ of 6 values {0, 3, 2, 0, 2, 1} that represent the vertices that will be drawn in
 triangles.  So one triangle will use vertices (0, 3, 2) and the other will use vertices
 (0, 2, 1).
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.3
 \date      1/6/2018
 

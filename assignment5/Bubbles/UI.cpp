@@ -4,7 +4,7 @@
 \file UI.cpp
 \brief User interface processor for the program.
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.2
 \date      1/7/2018
 
