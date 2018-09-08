@@ -1,5 +1,7 @@
 #include "Circles.h"
-
+///author    Don Spickler,Carlos Hernandez
+//version   1.2
+//date      1/14/2018
 Circles::Circles(GLint s){
     sides = s;
 

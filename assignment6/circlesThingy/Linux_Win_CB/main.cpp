@@ -94,7 +94,7 @@ able to support OpenGL version 3.3 to run this program.
 
 \subsection copyright Copyright
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.2
 \date      1/14/2018
 \copyright 2018

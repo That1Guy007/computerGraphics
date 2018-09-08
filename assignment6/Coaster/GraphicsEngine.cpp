@@ -6,7 +6,7 @@
 
 This class extends sf::RenderWindow.
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.2
 \date      1/14/2018
 

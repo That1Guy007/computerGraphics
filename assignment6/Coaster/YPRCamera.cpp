@@ -5,7 +5,7 @@
 
 \brief Implementation file for the YPRCamera class.
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.2
 \date      1/14/2018
 

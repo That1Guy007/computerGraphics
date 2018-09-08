@@ -5,7 +5,7 @@
 
 \brief Implementation file for the SphericalCamera class.
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.3
 \date      1/17/2018
 

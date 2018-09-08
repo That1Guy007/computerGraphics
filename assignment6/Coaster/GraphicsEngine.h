@@ -27,7 +27,7 @@
 \file GraphicsEngine.h
 \brief Header file for GraphicsEngine.cpp
 
-\author    Don Spickler
+\author    Don Spickler,Carlos Hernandez
 \version   1.2
 \date      1/14/2018
 
